@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+html{
+    overflow: hidden;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border: 1px;
+    border-color: #B6B8D8;
+    border-style: solid;
+    font-family: 'Open Sans',sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: 10px;
+    box-shadow: 10px 9px 39px -18px rgba(0, 0, 0,0.75);
+    margin: 2%;
+}
+
+.cardWrapper{
+    display: flex;
+    margin: 5% auto;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.header{
+    text-align: center;
+    font-family: 'Open Sans',sans-serif;
+    margin-top: 5%;
+}
